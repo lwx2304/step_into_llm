@@ -1,0 +1,16 @@
+# export GLOG_v=3
+# python glm2.py
+2023-08-24 16:22:38,795 - mindformers - INFO - Config in the yaml file ./checkpoint_download/glm2/glm2_6b.yaml are used for tokenizer building.
+2023-08-24 16:22:38,815 - mindformers - INFO - Load the tokenizer name ChatGLM2Tokenizer from the ./checkpoint_download/glm2/glm2_6b.yaml
+2023-08-24 16:22:38,833 - mindformers - INFO - config in the yaml file ./checkpoint_download/glm2/glm2_6b.yaml are used for tokenizer building.
+2023-08-24 16:22:38,851 - mindformers - WARNING - Can't find the tokenizer_config.json in the file_dict. The content of file_dict is : {}
+2023-08-24 16:22:38,851 - mindformers - INFO - build tokenizer class name is: ChatGLM2Tokenizer using args {'bos_token': '<sop>', 'eos_token': '<eop>', 'end_token': '</s>', 'mask_token': '[MASK]', 'gmask_token': '[gMASK]', 'pad_token': '<pad>', 'unk_token': '<unk>', 'vocab_file': './checkpoint_download/glm2/tokenizer.model'}.
+2023-08-24 16:22:38,881 - mindformers - INFO - ChatGLM2Tokenizer Tokenizer built successfully!
+2023-08-24 16:24:55,488 - mindformers - INFO - start to read the ckpt file: 12487185277
+2023-08-24 16:25:37,942 - mindformers - INFO - weights in ./checkpoint_download/glm2/glm2_6b.ckpt are loaded
+2023-08-24 16:25:37,942 - mindformers - INFO - model built successfully!
+[Round 1]
+
+问：你好
+
+答： 你好👋！我是人工智能助手 ChatGLM2-6B，很高兴见到你，欢迎问我任何问题。
